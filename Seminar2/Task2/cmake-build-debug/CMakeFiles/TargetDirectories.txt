@@ -1,0 +1,3 @@
+C:/Users/Даниил/Desktop/Projects/C++/Seminars/MiSP/Seminar2/Task2/cmake-build-debug/CMakeFiles/Task2.dir
+C:/Users/Даниил/Desktop/Projects/C++/Seminars/MiSP/Seminar2/Task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Даниил/Desktop/Projects/C++/Seminars/MiSP/Seminar2/Task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
