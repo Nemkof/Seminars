@@ -1,0 +1,3 @@
+C:/Users/Даниил/Desktop/Seminars/Seminar5/5.1/cmake-build-debug/CMakeFiles/5_1.dir
+C:/Users/Даниил/Desktop/Seminars/Seminar5/5.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Даниил/Desktop/Seminars/Seminar5/5.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

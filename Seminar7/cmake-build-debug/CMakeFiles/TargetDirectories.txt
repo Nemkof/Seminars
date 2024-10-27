@@ -1,0 +1,3 @@
+C:/Users/Даниил/Desktop/Seminars/6_18.10.2024/cmake-build-debug/CMakeFiles/6_18_10_2024.dir
+C:/Users/Даниил/Desktop/Seminars/6_18.10.2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Даниил/Desktop/Seminars/6_18.10.2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
