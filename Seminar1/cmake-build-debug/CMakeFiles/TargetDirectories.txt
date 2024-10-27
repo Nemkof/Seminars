@@ -1,0 +1,3 @@
+C:/Users/Даниил/Desktop/Seminars/Seminar1/cmake-build-debug/CMakeFiles/Seminars.dir
+C:/Users/Даниил/Desktop/Seminars/Seminar1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Даниил/Desktop/Seminars/Seminar1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
