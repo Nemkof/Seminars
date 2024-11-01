@@ -1,57 +1,47 @@
 #ifndef FORWARDLIST_H
 #define FORWARDLIST_H
+#include<iostream>
+#include<memory>
 
-#include <memory>
-#include <stdexcept>
-using namespace std;
-
-template<typename T> class ForwardList
-{
+template<typename T>
+class ForwardList{
 private:
-
     struct Node{
         T data;
-        unique_ptr<Node> next;
-        Node(const T& data) : data(data), next(nullptr) {
-            cout << "Constructor Node" << endl;
+        std::unique_ptr<Node> next;
+        Node(const T& _data){
+            data = _data;
         }
-        ~Node(){ cout << "Destructor Node" << endl;}
+        ~Node(){}
     };
-
-    unique_ptr<Node> head;
-
+    std::unique_ptr<Node> head;
 public:
-    ForwardList() : head(nullptr) {
-        cout << "Constructor List" << endl;
+    ForwardList(){
+        head = nullptr;
+    }
+    ~ForwardList(){}
+
+    void push_front(const T& data){
+        std::unique_ptr<Node> node = std::make_unique<Node>(data);
+        node->next = std::move(head);
+        head = std::move(node);
 
     }
-    ~ForwardList() { cout << "Destructor List " << endl;}
-    // Добавление в начало
-    void push_front(const T& data)
-    {
-        unique_ptr<Node> node = std::make_unique<Node>(data);
-        node->next = head;
-        head = node;
-    }
-
-    // Удаление первого элемента
-    void pop_front()
-    {
-        if (head) {
-            head = head->next;
+    void pop_front(){
+        if(head){
+            head = std::move(head->next);
         }
     }
 
-    // Проверка на пустоту
-    bool empty() const
-    {
+    bool empty() const{
         return !head;
     }
 
-    // Получение первого элемента
     T& front() const
     {
-        if(head != nullptr) return head->data;
+        return head->data;
     }
+
 };
+
 #endif
